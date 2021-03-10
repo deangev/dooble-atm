@@ -13,7 +13,7 @@
 .search-results-container {
   position: absolute !important;
   right: 0;
-  max-height: 100vh !important;
+  height: 100vh !important;
   background-color: #444444;
 }
 
