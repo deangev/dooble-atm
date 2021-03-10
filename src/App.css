@@ -1,0 +1,78 @@
+* {
+  text-align: end;
+}
+
+.App {
+  max-height: 100vh;
+}
+
+.leaflet-container {
+  height: 100vh;
+}
+
+.search-results-container {
+  position: absolute !important;
+  right: 0;
+  max-height: 100vh !important;
+  background-color: #444444;
+}
+
+.input-container {
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+  top: 2rem;
+  width: 90%;
+}
+
+.input-container input {
+  padding: .3rem 2rem;
+  height: 5vh;
+  width: 100%;
+  z-index: 4 !important;
+}
+
+.search-icon {
+  position: absolute;
+  left: .4rem;
+  transform: translateY(-50%);
+  top: 50%;
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+
+.results-container {
+  margin-top: 10vh;
+  height: 83vh;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.bank-result-container {
+  position: relative;
+  min-height: 5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: .3rem;
+  margin-right: .2rem;
+}
+
+.bank-result-container:hover {
+  background-color: azure;
+}
+
+.atm-details-container {
+  padding: 1rem;
+}
+
+#atm-icon-container {
+  position: relative;
+  padding-right: .2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .map-wrapper {
+    height: 80vh;  
+  }
+}
